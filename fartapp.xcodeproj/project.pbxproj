@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4E1A7E931888A01F009348AA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E1A7E921888A01F009348AA /* Foundation.framework */; };
+		4E1A7E951888A01F009348AA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E1A7E941888A01F009348AA /* CoreGraphics.framework */; };
+		4E1A7E971888A01F009348AA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E1A7E961888A01F009348AA /* UIKit.framework */; };
+		4E1A7E991888A01F009348AA /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E1A7E981888A01F009348AA /* SpriteKit.framework */; };
+		4E1A7E9F1888A01F009348AA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4E1A7E9D1888A01F009348AA /* InfoPlist.strings */; };
+		4E1A7EA11888A01F009348AA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E1A7EA01888A01F009348AA /* main.m */; };
+		4E1A7EA51888A01F009348AA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E1A7EA41888A01F009348AA /* AppDelegate.m */; };
+		4E1A7EA81888A01F009348AA /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E1A7EA61888A01F009348AA /* Main_iPhone.storyboard */; };
+		4E1A7EAB1888A01F009348AA /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E1A7EA91888A01F009348AA /* Main_iPad.storyboard */; };
+		4E1A7EAE1888A01F009348AA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E1A7EAD1888A01F009348AA /* ViewController.m */; };
+		4E1A7EB11888A01F009348AA /* MyScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E1A7EB01888A01F009348AA /* MyScene.m */; };
+		4E1A7EB31888A01F009348AA /* Spaceship.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E1A7EB21888A01F009348AA /* Spaceship.png */; };
+		4E1A7EB51888A01F009348AA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E1A7EB41888A01F009348AA /* Images.xcassets */; };
+		4E1A7EBC1888A01F009348AA /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E1A7EBB1888A01F009348AA /* XCTest.framework */; };
+		4E1A7EBD1888A01F009348AA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E1A7E921888A01F009348AA /* Foundation.framework */; };
+		4E1A7EBE1888A01F009348AA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E1A7E961888A01F009348AA /* UIKit.framework */; };
+		4E1A7EC61888A01F009348AA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4E1A7EC41888A01F009348AA /* InfoPlist.strings */; };
+		4E1A7EC81888A01F009348AA /* fartappTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E1A7EC71888A01F009348AA /* fartappTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4E1A7EBF1888A01F009348AA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4E1A7E871888A01F009348AA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4E1A7E8E1888A01F009348AA;
+			remoteInfo = fartapp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4E1A7E8F1888A01F009348AA /* fartapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = fartapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E1A7E921888A01F009348AA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4E1A7E941888A01F009348AA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4E1A7E961888A01F009348AA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4E1A7E981888A01F009348AA /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		4E1A7E9C1888A01F009348AA /* fartapp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "fartapp-Info.plist"; sourceTree = "<group>"; };
+		4E1A7E9E1888A01F009348AA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4E1A7EA01888A01F009348AA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4E1A7EA21888A01F009348AA /* fartapp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "fartapp-Prefix.pch"; sourceTree = "<group>"; };
+		4E1A7EA31888A01F009348AA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4E1A7EA41888A01F009348AA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4E1A7EA71888A01F009348AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		4E1A7EAA1888A01F009348AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		4E1A7EAC1888A01F009348AA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4E1A7EAD1888A01F009348AA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4E1A7EAF1888A01F009348AA /* MyScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyScene.h; sourceTree = "<group>"; };
+		4E1A7EB01888A01F009348AA /* MyScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyScene.m; sourceTree = "<group>"; };
+		4E1A7EB21888A01F009348AA /* Spaceship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Spaceship.png; sourceTree = "<group>"; };
+		4E1A7EB41888A01F009348AA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4E1A7EBA1888A01F009348AA /* fartappTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fartappTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E1A7EBB1888A01F009348AA /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		4E1A7EC31888A01F009348AA /* fartappTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "fartappTests-Info.plist"; sourceTree = "<group>"; };
+		4E1A7EC51888A01F009348AA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4E1A7EC71888A01F009348AA /* fartappTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = fartappTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4E1A7E8C1888A01F009348AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E1A7E951888A01F009348AA /* CoreGraphics.framework in Frameworks */,
+				4E1A7E971888A01F009348AA /* UIKit.framework in Frameworks */,
+				4E1A7E991888A01F009348AA /* SpriteKit.framework in Frameworks */,
+				4E1A7E931888A01F009348AA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E1A7EB71888A01F009348AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E1A7EBC1888A01F009348AA /* XCTest.framework in Frameworks */,
+				4E1A7EBE1888A01F009348AA /* UIKit.framework in Frameworks */,
+				4E1A7EBD1888A01F009348AA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4E1A7E861888A01F009348AA = {
+			isa = PBXGroup;
+			children = (
+				4E1A7E9A1888A01F009348AA /* fartapp */,
+				4E1A7EC11888A01F009348AA /* fartappTests */,
+				4E1A7E911888A01F009348AA /* Frameworks */,
+				4E1A7E901888A01F009348AA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4E1A7E901888A01F009348AA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4E1A7E8F1888A01F009348AA /* fartapp.app */,
+				4E1A7EBA1888A01F009348AA /* fartappTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4E1A7E911888A01F009348AA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4E1A7E921888A01F009348AA /* Foundation.framework */,
+				4E1A7E941888A01F009348AA /* CoreGraphics.framework */,
+				4E1A7E961888A01F009348AA /* UIKit.framework */,
+				4E1A7E981888A01F009348AA /* SpriteKit.framework */,
+				4E1A7EBB1888A01F009348AA /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4E1A7E9A1888A01F009348AA /* fartapp */ = {
+			isa = PBXGroup;
+			children = (
+				4E1A7EA31888A01F009348AA /* AppDelegate.h */,
+				4E1A7EA41888A01F009348AA /* AppDelegate.m */,
+				4E1A7EA61888A01F009348AA /* Main_iPhone.storyboard */,
+				4E1A7EA91888A01F009348AA /* Main_iPad.storyboard */,
+				4E1A7EAC1888A01F009348AA /* ViewController.h */,
+				4E1A7EAD1888A01F009348AA /* ViewController.m */,
+				4E1A7EAF1888A01F009348AA /* MyScene.h */,
+				4E1A7EB01888A01F009348AA /* MyScene.m */,
+				4E1A7EB21888A01F009348AA /* Spaceship.png */,
+				4E1A7EB41888A01F009348AA /* Images.xcassets */,
+				4E1A7E9B1888A01F009348AA /* Supporting Files */,
+			);
+			path = fartapp;
+			sourceTree = "<group>";
+		};
+		4E1A7E9B1888A01F009348AA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4E1A7E9C1888A01F009348AA /* fartapp-Info.plist */,
+				4E1A7E9D1888A01F009348AA /* InfoPlist.strings */,
+				4E1A7EA01888A01F009348AA /* main.m */,
+				4E1A7EA21888A01F009348AA /* fartapp-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4E1A7EC11888A01F009348AA /* fartappTests */ = {
+			isa = PBXGroup;
+			children = (
+				4E1A7EC71888A01F009348AA /* fartappTests.m */,
+				4E1A7EC21888A01F009348AA /* Supporting Files */,
+			);
+			path = fartappTests;
+			sourceTree = "<group>";
+		};
+		4E1A7EC21888A01F009348AA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4E1A7EC31888A01F009348AA /* fartappTests-Info.plist */,
+				4E1A7EC41888A01F009348AA /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4E1A7E8E1888A01F009348AA /* fartapp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E1A7ECB1888A01F009348AA /* Build configuration list for PBXNativeTarget "fartapp" */;
+			buildPhases = (
+				4E1A7E8B1888A01F009348AA /* Sources */,
+				4E1A7E8C1888A01F009348AA /* Frameworks */,
+				4E1A7E8D1888A01F009348AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = fartapp;
+			productName = fartapp;
+			productReference = 4E1A7E8F1888A01F009348AA /* fartapp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4E1A7EB91888A01F009348AA /* fartappTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E1A7ECE1888A01F009348AA /* Build configuration list for PBXNativeTarget "fartappTests" */;
+			buildPhases = (
+				4E1A7EB61888A01F009348AA /* Sources */,
+				4E1A7EB71888A01F009348AA /* Frameworks */,
+				4E1A7EB81888A01F009348AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4E1A7EC01888A01F009348AA /* PBXTargetDependency */,
+			);
+			name = fartappTests;
+			productName = fartappTests;
+			productReference = 4E1A7EBA1888A01F009348AA /* fartappTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4E1A7E871888A01F009348AA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = Flatutech;
+				TargetAttributes = {
+					4E1A7EB91888A01F009348AA = {
+						TestTargetID = 4E1A7E8E1888A01F009348AA;
+					};
+				};
+			};
+			buildConfigurationList = 4E1A7E8A1888A01F009348AA /* Build configuration list for PBXProject "fartapp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4E1A7E861888A01F009348AA;
+			productRefGroup = 4E1A7E901888A01F009348AA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4E1A7E8E1888A01F009348AA /* fartapp */,
+				4E1A7EB91888A01F009348AA /* fartappTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4E1A7E8D1888A01F009348AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E1A7EB31888A01F009348AA /* Spaceship.png in Resources */,
+				4E1A7EB51888A01F009348AA /* Images.xcassets in Resources */,
+				4E1A7EAB1888A01F009348AA /* Main_iPad.storyboard in Resources */,
+				4E1A7EA81888A01F009348AA /* Main_iPhone.storyboard in Resources */,
+				4E1A7E9F1888A01F009348AA /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E1A7EB81888A01F009348AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E1A7EC61888A01F009348AA /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4E1A7E8B1888A01F009348AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E1A7EB11888A01F009348AA /* MyScene.m in Sources */,
+				4E1A7EAE1888A01F009348AA /* ViewController.m in Sources */,
+				4E1A7EA51888A01F009348AA /* AppDelegate.m in Sources */,
+				4E1A7EA11888A01F009348AA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E1A7EB61888A01F009348AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E1A7EC81888A01F009348AA /* fartappTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4E1A7EC01888A01F009348AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4E1A7E8E1888A01F009348AA /* fartapp */;
+			targetProxy = 4E1A7EBF1888A01F009348AA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4E1A7E9D1888A01F009348AA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4E1A7E9E1888A01F009348AA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4E1A7EA61888A01F009348AA /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4E1A7EA71888A01F009348AA /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		4E1A7EA91888A01F009348AA /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4E1A7EAA1888A01F009348AA /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		4E1A7EC41888A01F009348AA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4E1A7EC51888A01F009348AA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4E1A7EC91888A01F009348AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4E1A7ECA1888A01F009348AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4E1A7ECC1888A01F009348AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "fartapp/fartapp-Prefix.pch";
+				INFOPLIST_FILE = "fartapp/fartapp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4E1A7ECD1888A01F009348AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "fartapp/fartapp-Prefix.pch";
+				INFOPLIST_FILE = "fartapp/fartapp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		4E1A7ECF1888A01F009348AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/fartapp.app/fartapp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "fartapp/fartapp-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "fartappTests/fartappTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		4E1A7ED01888A01F009348AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/fartapp.app/fartapp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "fartapp/fartapp-Prefix.pch";
+				INFOPLIST_FILE = "fartappTests/fartappTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4E1A7E8A1888A01F009348AA /* Build configuration list for PBXProject "fartapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E1A7EC91888A01F009348AA /* Debug */,
+				4E1A7ECA1888A01F009348AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E1A7ECB1888A01F009348AA /* Build configuration list for PBXNativeTarget "fartapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E1A7ECC1888A01F009348AA /* Debug */,
+				4E1A7ECD1888A01F009348AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4E1A7ECE1888A01F009348AA /* Build configuration list for PBXNativeTarget "fartappTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E1A7ECF1888A01F009348AA /* Debug */,
+				4E1A7ED01888A01F009348AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4E1A7E871888A01F009348AA /* Project object */;
+}
